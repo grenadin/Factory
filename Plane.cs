@@ -4,9 +4,8 @@ using System.Text;
 
 namespace Factory
 {
-    class Truck : ITransport 
+    class Plane : ITransport
     {
-            public string Deliver() => "Trucks deliver cargo by land.";
- 
+       public string Deliver() => "Plane deliver cargo by Air.";
     }
 }

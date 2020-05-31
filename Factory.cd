@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
   <Class Name="Factory.Logistics">
     <Position X="3" Y="0.5" Width="2.75" />
     <TypeIdentifier>
@@ -7,45 +7,60 @@
       <FileName>Logistics.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Factory.Client">
-    <Position X="6.25" Y="5.5" Width="2.75" />
+  <Class Name="Factory.Client" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAI=</HashCode>
       <FileName>Client.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Factory.RoadLogistics">
-    <Position X="1.75" Y="3.25" Width="2.25" />
+    <Position X="1.75" Y="2.5" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>RoadLogistics.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Factory.SeaLogistics">
-    <Position X="4.75" Y="3.25" Width="2.25" />
+    <Position X="1.75" Y="6.5" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>SeaLogistics.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Factory.Ship">
-    <Position X="11.75" Y="3.25" Width="2.5" />
+  <Class Name="Factory.Ship" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Ship.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
+    <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="Factory.Truck">
-    <Position X="8.75" Y="3.25" Width="2.5" />
+  <Class Name="Factory.Truck" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Truck.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.176" Collapsed="true" />
+  </Class>
+  <Class Name="Factory.AirLogistics">
+    <Position X="1.75" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AirLogistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.Plane">
+    <Position X="4.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Plane.cs</FileName>
+    </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Interface Name="Factory.ITransport">
-    <Position X="10" Y="0.75" Width="2.25" />
+    <Position X="8" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ITransport.cs</FileName>

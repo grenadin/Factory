@@ -4,8 +4,9 @@ using System.Text;
 
 namespace Factory
 {
-    interface ITransport
+    interface ITransport // The task of this class is for Delivery items from origin to destination
     {
         string Deliver();
+
     }
 }
