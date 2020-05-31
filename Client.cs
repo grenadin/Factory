@@ -2,7 +2,7 @@
 
 namespace Factory
 {
-    class Program
+    class Client
     {
         static void Main(string[] args)
         {

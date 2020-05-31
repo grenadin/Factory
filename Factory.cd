@@ -7,11 +7,11 @@
       <FileName>Logistics.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Factory.Program">
+  <Class Name="Factory.Client">
     <Position X="6.25" Y="5.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAI=</HashCode>
-      <FileName>Program.cs</FileName>
+      <FileName>Client.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Factory.RoadLogistics">
